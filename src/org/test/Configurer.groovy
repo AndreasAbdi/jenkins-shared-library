@@ -10,7 +10,7 @@ class Configurer implements Serializable {
         this.script = script
     }
 
-    public static configure() {
+    public configure() {
         def invokable = {
             def triggerFrequency = "H 4 * * *"
             def propertiesList = []
