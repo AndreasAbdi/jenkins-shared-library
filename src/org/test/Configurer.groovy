@@ -11,7 +11,7 @@ class Configurer implements Serializable {
     }
 
     public static configure() {
-        invokable = {
+        def invokable = {
             def triggerFrequency = "H 4 * * *"
             def propertiesList = []
             def pipelineTriggersList = []
