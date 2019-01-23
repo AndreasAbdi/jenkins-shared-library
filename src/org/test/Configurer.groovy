@@ -1,4 +1,5 @@
 package org.test
+import org.jenkinsci.plugins.workflow.cps.CpsScript
 
 
 class Configurer implements Serializable {
