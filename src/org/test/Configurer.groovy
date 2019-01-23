@@ -19,7 +19,7 @@ class Configurer implements Serializable {
             propertiesList.add(pipelineTriggers(pipelineTriggersList))
             properties(propertiesList)
         }
-        invokable.delegate = script
+        invokable.delegate = this.script
         invokable.resolveStrategy = Closure.DELEGATE_FIRST
         invokable()
     }
